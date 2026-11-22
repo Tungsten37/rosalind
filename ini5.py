@@ -1,4 +1,4 @@
-with open("rosalind_ini5.txt") as f, open("ini5_ans.txt", "w") as out:
-    for i, line in enumerate(f, start=1):
-        if i % 2 == 0:
-            out.write(line)
+with open("rosalind_ini5.txt") as input, open("ini5_ans.txt", "w") as output:
+    for line_number, line_text in enumerate(input, start=1):
+        if line_number % 2 == 0:
+            output.write(line_text)
