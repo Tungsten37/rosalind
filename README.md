@@ -1,1 +1,1 @@
-Rodslind用（暫定）
+Rodslind用
